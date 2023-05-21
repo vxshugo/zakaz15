@@ -19,7 +19,6 @@ const Test = () => {
 
     return (
         <div className='lesson'>
-            <Navbar />
             <div className="head">
                 <h4>Емтихан сұрақтары</h4>
             </div>
@@ -28,7 +27,6 @@ const Test = () => {
                     <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange} />
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

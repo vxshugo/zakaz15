@@ -20,7 +20,6 @@ const Lesson = () => {
 
     return (
         <div className='lesson'>
-            <Navbar />
             <div className="head">
                 <h4>Лекция</h4>
             </div>
@@ -29,7 +28,6 @@ const Lesson = () => {
                     <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers} onDocumentChange={handleDocumentChange} />
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

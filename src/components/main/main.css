@@ -34,6 +34,9 @@
   font-weight:900;
   color: #fff;
   margin: 1rem 0;
+  background-color: rgba(0, 0, 0, 0.37);
+  padding: 10px;
+  border-radius: 12px;
 }
 .main-text-2 {
   font-size: 32px;

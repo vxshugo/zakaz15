@@ -18,7 +18,6 @@ const SecondPage = () => {
 
   return (
     <div className='testPage'>
-      <Navbar />
       <div className="head">
         <h4>Тест</h4>
       </div>
@@ -35,7 +34,6 @@ const SecondPage = () => {
           <DocViewer className='my-doc-viewer-style' documents={docs} activeDocument={activeDocument} pluginRenderers={DocViewerRenderers}  onDocumentChange={handleDocumentChange}/>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }
